@@ -14,6 +14,11 @@ body {
     flex-direction: column;
     margin: 0 auto;
     font-family: sans-serif;
+    display: flex;
+}
+
+section {
+    display: block;
 }
 
 /* Header styling */
@@ -41,7 +46,7 @@ header {
 
 header h1 {
     display: flex;
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 .nav-bar {
@@ -53,7 +58,7 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: space-between;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     margin:0 5px;
     text-decoration: none;
@@ -77,10 +82,54 @@ nav a:last-child:after {
 }
 
 nav a:hover {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: underline;
 }
 
-/* section one */
+/* Main */
+main {
+    display: flex;
+
+}
+
+.about-me {
+    width: 100%;
+}
+
+.about-me-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+.about-me-text-container {
+    max-width: 100%;
+    margin: 0 10px;
+}
+
+.about-me-text-container h2 {
+    font-size: 1.875rem;
+}
+
+.about-me-text-container p {
+    display: block;
+    font-size: 1.125rem;
+}
+
+.about-me-text-container h3 {
+    font-size: 1.5rem;
+}
+
+.about-me-container img {
+    width: 25rem;
+    height: 18.75rem;
+}
+
+.projects-container {
+    width: 100%;
+    position: relative;
+}
+
 
 
