@@ -86,77 +86,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Main */
-
-.about-me {
-    width: 100%;
-}
-
-.about-me-container{
-    display: flex;
-    justify-content: center;
-    margin: 10px 0;
-    max-width: 100%;
-}
-
-.about-me-text-container {
-    max-width: 100%;
-    margin: 0 10px;
-}
-
-.about-me-text-container h2 {
-    font-size: 1.875rem;
-}
-
-.about-me-text-container p {
-    display: block;
-    font-size: 1.125rem;
-}
-
-.about-me-text-container h3 {
-    font-size: 1.5rem;
-}
-
-.about-me-container img {
-    width: 25rem;
-    height: 18.75rem;
-}
-
-/* projects section */
-
-.projects {
-    margin-left: 10px;
-}
-
-.projects h2 {
-    display:contents ;
-}
-
-.projects details {
-    margin-top: 10px;
-}
-
-.projects img {
-    width: 700px;
-    height: 400px;
-}
-
-/* footer */
-
-
-footer {
-    background-color:rgb(111, 108, 108);
-    margin-top: 20px;
-    color: white;
-}
-
-.footer-text-container {
-    margin-left: 10px;
-}
-
-.social-container img {
+img {
     width: 50px;
     height: 50px;
     margin: 0 10px;
 }
 
+.contact-container {
+    margin-left: 10px;
+}
